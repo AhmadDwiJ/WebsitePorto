@@ -21,7 +21,7 @@
     overflow: hidden;
     border-radius: 15px;
     transition: all 0.5s ease;
-    /* Menggunakan background header agar konsisten */
+   
     background: linear-gradient(180deg, #131f60 0%, #3840a0 50%, #6070d0 100%);
     padding: 20px;
     margin: 20px;
@@ -55,12 +55,12 @@
     transform: rotate(-45deg) translateY(100%);
   }
   
-  /* Style header dan isinya */
+
   header {
     text-align: center;
     color: #fff;
     position: relative;
-    z-index: 2; /* pastikan konten tetap di atas efek ::before */
+    z-index: 2; 
   }
   
   .profile-pic {
@@ -71,8 +71,7 @@
     border: 5px solid #fff;
     margin-top: 35px;
   }
-  
-  /* Style container lain (jika diperlukan) */
+
   .container {
     max-width: 900px;
     margin: 20px auto;
